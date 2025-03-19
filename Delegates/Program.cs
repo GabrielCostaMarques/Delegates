@@ -1,11 +1,10 @@
-﻿
-using Delegates.MultiCastingDelegates;
+﻿using Delegates.Action;
 
 public class Program
 {
     public static void Main(string[] args)
     {
-        MultiCastingDelegatesUser user = new();
-        user.MultiCastingDelegatesShow();
+        ActionUser user = new();
+        user.ActionShow();
     }
 }
