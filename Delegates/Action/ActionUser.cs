@@ -3,7 +3,7 @@ using Delegates.Predicate.Entities;
 
 namespace Delegates.Action
 {
-    class ActionUser
+    class FuncUser
     {
         public void ActionShow()
         {
